@@ -1,0 +1,37 @@
+{
+  "name": "appName",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo start; make test_"
+  },
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.0.0",
+    "ejs": "~0.8.5",
+    "express": "~4.9.0",
+    "morgan": "~1.3.0",
+    "serve-favicon": "~2.1.3",
+    "stylus": "0.42.3"
+  },
+  "description": "mongoose",
+  "main": "bin/www",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RHDHR/RHDDB7.git"
+  },
+  "keywords": [
+    "UrlShorten"
+  ],
+  "author": "cympfh",
+  "bugs": {
+    "url": "https://github.com/RHDHR/RHDDB7/issues"
+  },
+  "homepage": "https://github.com/RHDHR/RHDDB7"
+}
