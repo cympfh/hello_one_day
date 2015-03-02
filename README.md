@@ -1,22 +1,5 @@
-intern2015-one-day
+vagrea2015-bar-qnl
 ==================
-
-課題
-===
-1. URL短縮サービスを作る
-    - 短縮するAPI
-    - リダイレクト機能 (短縮されたurlへのアクセス) (308でやる)
-2. テストコード、速度、とかとか
-3. ドキュメントの作成
-
-[詳細スライド](http://go-talks.appspot.com/github.com/kuma-san/slides/intern-2015-winter/main.slide)
-
-# server
-
-```
-IP: 54.65.80.167
-PORT: 80
-```
 
 # dependency
 
@@ -86,4 +69,5 @@ Try on your browser.
 
 # /DB (debug command)
 
-`http://54.65.80.167/DB`
+access to `http://${machine-IP}/DB`
+
