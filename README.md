@@ -44,7 +44,7 @@ This service has two functions.
 POST to shorten
 
 ```bash
-curl http://54.65.80.167/api/v1/shortenurl \
+curl http://${machine-IP}/api/v1/shortenurl \
   -H 'Content-Type: application/json' \
   -d '{"LongUrl": "http://none.jp/"}'
 ```
@@ -52,16 +52,16 @@ curl http://54.65.80.167/api/v1/shortenurl \
 sample response
 
 ```bash
-{"ShortUrl":"http://54.65.80.167/rt","Created":1418455295391,"LongUrl":"http://none.jp/"}%
+{"ShortUrl":"http://${machine-IP}/rt","Created":1418455295391,"LongUrl":"http://none.jp/"}%
 ```
 
 ## expand (redirect)
 
 ```
-$ curl http://54.65.80.167/rt
+$ curl http://${machine-IP}/rt
 <html><body>redirect to http://none.jp/
 
-$ curl -w "%{http_code} " http://54.65.80.167/rt
+$ curl -w "%{http_code} " http://${machine-IP}/rt
 <html><body>redirect to http://none.jp/308 
 ```
 
